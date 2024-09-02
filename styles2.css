@@ -1,0 +1,225 @@
+body {
+    min-width: 768px;
+    min-height: 1024px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    font-family: TT Lakes;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+    width: 320px;
+    height: 1024px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+    background-attachment: fixed;
+}
+
+.burger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 24px;
+    top: 23px;
+}
+
+.group {
+    position: absolute;
+    width: 97px;
+    height: 51px;
+    left: 80.73px;
+    top: 18.73px;
+}
+
+.search {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: 23px;
+}
+
+.section {
+    position: absolute;
+    width: 235px;
+    height: 876px;
+    left: 0%;
+    right: 69.4%;
+    top: 11.33%;
+    bottom: 3.13%
+}
+
+
+.ul {
+    padding-left: 0;
+}
+
+.ul__list {
+    position: relative;
+    list-style: none;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.ul__list:last-child {
+    margin-bottom: 0;
+}
+
+
+.ul__link {
+    text-decoration: none;
+    color: rgb(27, 28, 33);
+    position: relative;
+    padding-left: 24px;
+}
+
+.ul__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -5.5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgb(65, 246, 215);
+    opacity: 0;
+    width: 4px;
+    height: 32px;
+    transition: opacity 0.3s ease;
+}
+
+.ul__link:hover::before {
+    opacity: 1;
+}
+
+.ul__link:hover {
+    color: rgb(126, 126, 130);
+    filter: opacity(70%);
+    transition: filter 0.3s ease;
+}
+
+.contact {
+    position: absolute;
+    width: 187px;
+    height: 124px;
+    left: 24px;
+    bottom: 64px;
+}
+
+.call {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.chat {
+    position: absolute;
+    top: 0;
+    left: 56px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 40px;
+    height: 40px;
+}
+
+.mail {
+    position: absolute;
+    width: 110px;
+    height: 24px;
+    top: 56px;
+    color: rgb(27, 28, 33);
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.lang {
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 24px;
+    bottom: 32px;
+}
+
+.lang__ru {
+    position: absolute;
+    width: 22px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    color: rgb(126, 126, 130);
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.lang__en {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    height: 22px;
+    width: 24px;
+    color: rgb(27, 28, 33);
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+
+}
+
+.lang__ch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    color: rgb(27, 28, 33);
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+
+}
+
+.number {
+    position: absolute;
+    top: 92px;
+    color: rgb(27, 28, 33);
+    font-family: TT Lakes;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-align: left;
+    width: 187px;
+    height: 32px;
+    white-space: nowrap;
+}
